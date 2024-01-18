@@ -1,0 +1,308 @@
+html{
+    scroll-behavior: smooth;
+}
+  /* Add padding to sections */
+  section {
+    padding: 16px;
+  }
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.headings{
+    font-family: century ;
+    font-size: 3rem ;
+    text-align: center ;
+    margin: 70px 0px;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background:url(img/burger.png);
+    background-size: 50% 90%;
+    background-repeat: no-repeat;
+    background-position:bottom right ;
+    position: stick;
+}
+.navbar a{
+  font-family: century;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+/* navbar */
+/* .navbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0,0,0,0.5);
+  position: sticky;
+  top: 0;
+}
+.navbar ul{
+  display: flex;
+  list-style: none;
+  margin: 20px 0px;
+}
+.navbar ul li{
+  font-family: century;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: white;
+  padding: 8px 25px;
+  transition: all 0.5s ease;
+}
+.navbar ul li a:hover{
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 10px white;
+} */
+.navbar{
+    width: 100%;
+    height: 70%;
+    position: sticky;
+    padding: 0px 7px;
+    background: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 0px 5px grey;
+}
+/* Home Section */
+/* #home{
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0,0,0,0.5);
+  height: 840px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+#home::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: url('img/hair-free-vector.jpg') ;
+  height: 900px;
+  width: 100%;
+  z-index: -1;
+  opacity: .8; */
+  /* background-repeat: no-repeat;
+}*/
+.logo{
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.logo span{
+    color: red;
+}
+#home a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 5px;
+}
+#home a:hover{
+    color: red;
+}
+#home a:last-child{
+    background-color: red;
+    color: white;
+    border-radius: 8px;
+}
+.slogan{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    padding: 0px;
+}
+.slogan p{
+    color: red;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 1.5em;
+
+}
+.slogan h3{
+    font-size: 2em;
+    line-height: 1.5em;
+}
+.slogan h3 span{
+    color: red;
+}
+.slogan h4{
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+#order{
+    font-size: 2em;
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    border-radius: 20px;
+}
+#burger{
+    position: absolute;
+    bottom: 15%;
+    left: 10%;
+}
+#burger img{
+    transition: 0.5s ease;
+}
+#burger img:hover{
+    transform: translateY(-20px);
+}
+
+
+  /*Form CSS*/
+  form {
+    border: 3px solid #f1f1f1;
+  }
+  
+  /* Full-width inputs */
+  input[type=text],input[type=email], input[type=password] {
+    width: 100%;
+    padding: 15px 20px;
+    margin: 20px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Extra style for the cancel button (red) */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+  #sign {
+    text-decoration: none;
+    padding: 2px 4px;
+    background-color: green;
+    color: white;
+    float: right;
+    padding-top: 16px;
+  }
+  /*SignIn*/
+
+  /*Footer*/
+  footer{
+    justify-content: center;
+  }
+  #contact{
+    /*align-items: center;*/
+    margin: 20px;
+  }
+  #icon{
+    display: flex;
+    margin: 30px;
+  }
+
+  footer{
+    width: 50%;
+    height: 10vh;
+}
+
+.fa {
+    align-items:right ;
+    margin-left: 20px;
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-instagram {
+    background:deeppink;
+    color: white;
+  }
+  .fa-youtube {
+    background: red;
+    color: white;
+  }
+  footer h2{
+    text-decoration: underline;
+    font-size: 2em;
+    margin: 40px;
+  }
+
+  /*menu*/
+  #menu{
+    display: flex;
+    flex-direction: column;
+    background-color:red;
+    opacity: 80%;
+    /* rgb(241, 21, 21) */
+    /* rgba(0,0,0,0.9) */
+    color: white;
+    align-items: center;
+    padding: 20px;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+.gallery img{
+    width: 360px;
+    height: 240px;
+    margin: 10px;
+}
+
+  /*media queries*/
+  @media screen and (max-width: 500px){
+    .slogan{
+      font-size: 0.2em;
+    }}
+
+    @media screen and (max-width: 800px){
+      .slogan{
+        font-size: 0.6em;
+      }
+    }
+  
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+        .cancelbtn {
+      width: 100%;
+    }
+  }
